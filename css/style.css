@@ -256,9 +256,6 @@ footer {
     nav > ul > li {
         margin-left: 0px;
     }
-    .nav-link:hover {
-        color: #FA4A0C;
-    }
     .app
     {
         max-width: 320px;
@@ -290,6 +287,15 @@ footer {
     .button {
         width: 100%;
         margin-bottom: 10px;
+    }
+    .button:hover {
+        border: 1px solid #FA4A0C;
+        background: #FA4A0C;
+        transition: 0.4s ease-in;
+    }
+    .button-container > .button:first-child {
+        border: 1px solid #FA4A0C;
+        background: #FA4A0C;
     }
     main {
         max-width: 320px;
