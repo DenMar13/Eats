@@ -35,13 +35,13 @@ nav > ul {
     list-style-type: none;
 }
 nav > ul > li {
-    margin-left: 114px;
+    margin-left: 113px;
 }
 nav > ul > li:first-child {
     margin-left: 0px;
 }
 .app {
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0 auto;
     background-image: url("../img/header-background.png");
     background-size: cover;
@@ -105,7 +105,7 @@ nav > ul > li:first-child {
     margin-right: 67px;
 }
 main {
-    max-width: 1440px;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
 }
@@ -165,7 +165,7 @@ main {
     max-width: 452px;
 }
 .order {
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0 auto;
     background-image: url("../img/section-background.png");
     background-size: cover;
@@ -219,7 +219,7 @@ main {
     transition: 0.4s ease-in;
 }
 footer {
-    max-width: 1440px;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
 }
@@ -287,15 +287,6 @@ footer {
     .button {
         width: 100%;
         margin-bottom: 10px;
-    }
-    .button:hover {
-        border: 1px solid #FA4A0C;
-        background: #FA4A0C;
-        transition: 0.4s ease-in;
-    }
-    .button-container > .button:first-child {
-        border: 1px solid #FA4A0C;
-        background: #FA4A0C;
     }
     main {
         max-width: 320px;
