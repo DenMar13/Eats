@@ -40,6 +40,9 @@ nav > ul > li {
 nav > ul > li:first-child {
     margin-left: 0px;
 }
+.header-burger {
+    display: none;
+}
 .app {
     max-width: 100%;
     margin: 0 auto;
@@ -244,17 +247,60 @@ footer {
         max-width: 320px;
     }
     .header-flexbox {
+        max-width: 320px;
         display: flex;       
-        align-items: center;      
+        align-items: center; 
         padding: 20px 0px;
+    }
+    nav { 
+         display: none;
     }
     nav > ul {
         display: flex;
         flex-direction: column;
-        text-align: left;
+        text-align: flex-start;
     }
     nav > ul > li {
         margin-left: 0px;
+    }
+    .header-burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 1;
+    }
+    .header-burger::before {
+        content: '';
+        background-color: #FA4A0C;
+        position: absolute;
+        width: 100%;
+        height: 4px;
+    }
+    .header-burger::after {
+        content: '';
+        background-color: #FA4A0C;
+        position: absolute;
+        width: 100%;
+        height: 4px;
+    }
+    .header-burger span {
+        content: '';
+        background-color: #FA4A0C;
+        position: absolute;
+        left: 0;
+        top: 8px;
+        width: 100%;
+        height: 4px;
+    }
+    .header-burger::before {
+        top: 0;
+    }
+    .header-burger::after {
+        bottom: 0;
+    }
+    .header-logo {
+        z-index: 1;
     }
     .app
     {
